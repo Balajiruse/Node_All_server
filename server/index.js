@@ -1,30 +1,17 @@
 import express from "express";
+import { doctorRouter } from "./Routes/doctor.js";
 
+// intiating server
 const app = express();
-// middle wares
+
+//middlewares
 app.use(express.json());
 
-app.post("/add/res", (req, res) => {
-  const newRestuarnt = {
-    ...req.body,
-    id: (resturants.length + 1).toString(),
-  };
-  resturants = [...resturants, newRestuarnt];
-  res.send(resturants);
-});
+//initiating PORT
+const PORT = 9000;
 
-app.put("/edit/res/:id", (req, res) => {
-  const { id } = req.params;
-  const findRes = resturants.find((res) => res.id === id);
-  findRes.special = req.body.special;
-  res.send(resturants);
-});
+// applicational routes
+app.use("/doctor", doctorRouter);
 
-app.delete("/delete/:id", (req, res) => {
-  const { id } = req.params;
-  const newset = resturants.filter((res) => res.id != id);
-  resturants = [...newset];
-  res.send(`Deleted Resturant`);
-});
-//listen to ther server
-app.listen(9000, () => console.log("server sarted in localhost:9000"));
+//listening to a server
+app.listen(PORT, () => console.log(`Server listning in localhost:${PORT}`));
