@@ -1,0 +1,59 @@
+.card{
+    margin:1rem;
+    background: linear-gradient(to top, #bf8294, #373796);
+    max-width: 20rem;
+    display: grid;
+    padding: 15px;
+
+    
+}
+.card-header{
+    margin: 1px; ;
+    padding:5px;
+    align-items: center;
+    font-size: large;
+    font-style: italic bold;
+    font-weight: bolder;
+    font-family: cursive;
+    color:black;
+    text-align: center;
+
+}
+.card-text{ margin: 10px; ;
+    padding:10px;
+    align-items: center;
+    font-size: large;
+    font-style: italic bold;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(19, 18, 18) ;
+    text-align: center;
+
+}
+.Weather{
+    margin: 1rem ;
+    padding:1rem ;
+    font-size: large;
+    font-style: italic bold;
+    font-weight: bolder;
+    font-family: cursive;
+    width: max-content;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #eae9e2;
+    color: #181616;
+    text-align: center;
+}
+.flag{
+    margin-top: 5px; 
+    margin-bottom:5px ;
+    padding-top:5px;
+    padding-bottom:5px;
+    width: 100%;
+    height:25% ;
+
+    align-items:  center !important;
+    place-content:bottom !important;
+
+}

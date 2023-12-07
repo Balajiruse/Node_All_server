@@ -1,0 +1,46 @@
+body { 
+    background:linear-gradient(rgb(151, 139, 139),rgb(41, 41, 43)); 
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  
+  #display {
+    font-family: cursive;
+  }
+  
+  .card {
+    background: linear-gradient(white,brown);
+    margin: 1rem;
+   
+    max-width: 20rem;
+    height: 750px; 
+    display: grid;
+    padding: 20px;
+    gap: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    place-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+    margin: 1px;
+    padding: 5px;
+    align-items: center;
+    
+  }
+  
+  .card-text {
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    font-family: cursive;
+  }
+  

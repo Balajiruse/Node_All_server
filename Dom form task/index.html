@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head> 
+<body>
+    <div class="container p-3 mb-2  text-black">
+        <h1 id="title"> Dom manipulation  Form </h1>
+        <P id="description" >Hey! Welcome to my site.
+          
+        ‍</P>
+        <form id="form">
+            
+
+            <div class="col form-group">
+                <label id="first-name-label" for="first-name">First Name:</label>
+                <input id="first-name" type="text" class="form-control " placeholder="enter yourFirst name" required>
+                
+                <label id="last-name-label" for="last-name">Last Name:</label>
+                <input id="last-name" type="text" class="form-control" placeholder="enter yourLast name" required>
+                
+
+            
+                <div id="Gender" class="col">
+                    <label id="gender-label" >Gender:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="male" >
+                        <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="female" >
+                        <label class="form-check-label" for="female">Female</label>
+                    </div>
+                    
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Gender" id="Notspecify" value="Notspecify"  >
+                        <label class="form-check-label" for="Notspecify">
+                        Not specify
+                        </label>
+                     </div>
+
+                    
+                        <label id="Food-label" >Choice of food</label>
+                        <label>(Choose any  Food ):</label>
+                        <div>
+                            <input type="radio" id="Biriyani" name="food" value="Biriyani">
+                            <label for="Biriyani">Biriyani</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Fried Rice" name="food" value="Fried Rice">
+                            <label for="Fried Rice">Fried Rice</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Meals" name="food" value="Meals">
+                            <label for="Meals">Meals</label>
+                        </div>
+                        <div>
+                          <input type="radio" id="Curd Rice" name="food" value="Curd Rice">
+                          <label for="Curd Rice">Curd Rice</label>
+                      </div>
+                      <div>
+                          <input type="radio" id="Fish" name="food" value="Fish">
+                          <label for="Fish">Fish</label>
+                       </div>
+                      
+                        <label id="Typeoffood" >Type of food</label>
+                        <div>
+                            <input type="radio" id="Veg" name="food" value="Veg">
+                            <label for="Veg">Veg</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Non-veg" name="food" value="Non-veg">
+                            <label for="Non-veg">Non-Veg</label>
+                        </div>
+                    
+                      
+
+                </div>
+               
+                   
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                    <label id="email-label"  for="inputEmail">Email</label>
+                    <input id="email" type="email" class="form-control" placeholder="enter your email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                    <label id="mobile-number" for="mobile-number">Mobile No</label>
+                    <input id="mobileno"  type="text" class="form-control" placeholder="Mobile number">
+                </div>
+               
+                <div class="col-12">
+                    <label id="Address-label">Address:</label>
+                    <textarea class="form-control" id="address" rows="3" required placeholder="Your address pls"></textarea>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label id="inputCity">City</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label id="State-label">State</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                                <option value="AP">Andhra Pradesh</option>
+                                <option value="AR">Arunachal Pradesh</option>
+                                <option value="AS">Assam</option>
+                                <option value="BR">Bihar</option>
+                                <option value="CG">Chhattisgarh</option>
+                                <option value="GA">Goa</option>
+                                <option value="GJ">Gujarat</option>
+                                <option value="HR">Haryana</option>
+                                <option value="HP">Himachal Pradesh</option>
+                                <option value="JH">Jharkhand</option>
+                                <option value="KA">Karnataka</option>
+                                <option value="KL">Kerala</option>
+                                <option value="MP">Madhya Pradesh</option>
+                                <option value="MH">Maharashtra</option>
+                                <option value="MN">Manipur</option>
+                                <option value="ML">Meghalaya</option>
+                                <option value="MZ">Mizoram</option>
+                                <option value="NL">Nagaland</option>
+                                <option value="OD">Odisha</option>
+                                <option value="PB">Punjab</option>
+                                <option value="RJ">Rajasthan</option>
+                                <option value="SK">Sikkim</option>
+                                <option value="TN">Tamil Nadu</option>
+                                <option value="TS">Telangana</option>
+                                <option value="TR">Tripura</option>
+                                <option value="UK">Uttarakhand</option>
+                                <option value="UP">Uttar Pradesh</option>
+                                <option value="WB">West Bengal</option>
+                                <option value="AN">Andaman and Nicobar Islands</option>
+                                <option value="CH">Chandigarh</option>
+                                <option value="DN">Dadra and Nagar Haveli and Daman and Diu</option>
+                                <option value="DL">Delhi</option>
+                                <option value="LD">Lakshadweep</option>
+                                <option value="PY">Puducherry</option>
+                          </select>
+                        </div>
+                </div>
+                
+                
+                 
+            </div>
+                
+            <label id="pincode-label">Pincode:</label>
+            <input id="pincode" type="text" class="form-control" placeholder="Pincode" required>
+
+
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+
+            <div class="table-responsive">
+                <table id="dataTable" class="table">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Phone No</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      
+                    </tbody>
+                </table>
+            </div>
+     
+        </form>
+       
+        
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

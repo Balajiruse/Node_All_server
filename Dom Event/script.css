@@ -1,0 +1,39 @@
+*
+{
+    text-align: center;
+}
+.btn
+{
+    margin:10px;
+    padding: 10px;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+.btn:hover
+{
+    background-color: rgb(88, 90, 93);
+    cursor: pointer;
+}
+.res
+{
+    border:dotted ;
+    margin: 0 auto ;
+    height:50px;
+    width: 500px;
+    margin-top: 35px;
+    padding: 20px;
+    margin: bottom 15px; 
+}
+.bt
+{
+   padding: 10px;
+   width: 100px;
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+   font-weight: bold;
+}

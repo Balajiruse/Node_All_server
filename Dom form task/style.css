@@ -1,0 +1,131 @@
+.container{
+    background-color: white;
+    border: 2px solid black; 
+    border-radius: 60px;
+
+}
+#title {
+    border-collapse: collapse;
+    
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #080d18;
+    font-weight: bold;
+   
+}
+#description{
+   color: rgb(28, 4, 4);
+    margin: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+#first-name-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color: rgb(6, 6, 25);
+    font-weight: bold;
+}
+#last-name-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color:rgb(6, 6, 25);
+    font-weight: bold;
+}
+
+#gender-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color: rgb(6, 6, 25);
+    font-weight: bold;
+}
+#Food-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color: rgb(6, 6, 25);
+    font-weight: bold;
+}
+#Typeoffood{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color:rgb(6, 6, 25);
+    font-weight: bold;
+}
+#email-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color: rgb(6, 6, 25);
+    font-weight: bold;
+}
+#mobile-number{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color: rgb(6, 6, 25);
+    font-weight: bold;
+}
+#Address-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color: rgb(6, 6, 25);
+    margin-top: 20px;
+    font-weight: bold;
+}
+#inputCity{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color:rgb(6, 6, 25);
+    font-weight: bold;
+}
+#State-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color: rgb(6, 6, 25);
+    font-weight: bold;
+}
+#pincode-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+    color: rgb(6, 6, 25);
+    font-weight: bold;
+}
+
+
+#submit{ margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 10px;
+ 
+}
+
+.table-responsive{
+  font-style: italic;
+  
+
+}
+th{
+    color:black;
+}
+tr{
+    color:black;
+}
+
+
+
+

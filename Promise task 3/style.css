@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: black;
+
+}
+body{
+ background: #f5cafe;
+}
+
+#display {
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+   
+}
+.Name{
+  place-items: center;
+  
+}
+
+.card {
+    background-color: black !important;
+    height:100%   ;
+    font-size: medium;
+    color: white !important;
+    margin: 20px;
+    border: 2px solid blue;
+    padding: 20px;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 1px rgba(7, 61, 119, 0.1);
+}
+
+.emoji {
+    font-size: 24px;
+}
+
+.btn{
+  /* text-align: center; */
+  margin: 0 auto;
+  display: block;
+  height: auto;
+  width: 50%;  
+  border-radius: 40px;
+  color:black !important;
+  background-color: white !important;
+  font-size: x-large !important;
+}
+
+
