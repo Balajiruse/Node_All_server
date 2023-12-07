@@ -3,22 +3,6 @@ import express from "express";
 const app = express();
 // middle wares
 app.use(express.json());
-let resturants = [
-  {
-    id: "1",
-    name: "KFC",
-    special: "Crispy Chicken",
-  },
-  {
-    id: "2",
-    name: "A2B",
-    special: "Sweets",
-  },
-];
-// get info
-app.get("/res", (req, res) => {
-  res.send(resturants);
-});
 
 app.post("/add/res", (req, res) => {
   const newRestuarnt = {
